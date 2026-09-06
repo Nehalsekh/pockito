@@ -1,0 +1,11 @@
+name:Simple Workflow to test given actions
+on:
+push:
+branches:master
+jobs:
+build:
+runs-on:ubuntu-latest
+steps:
+-uses:action/checkout@v3
+-name:"Sk Nehal"
+run:"hello world"
