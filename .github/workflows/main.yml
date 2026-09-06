@@ -1,11 +1,11 @@
-name:Simple Workflow to test given actions
+name: Simple Workflow to test given actions
 on:
-push:
-branches:master
+  push:
+    branches: master
 jobs:
-build:
-runs-on:ubuntu-latest
-steps:
--uses:action/checkout@v3
--name:"Sk Nehal"
-run:"hello world"
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: action/checkout@v3
+      - name:"Sk Nehal"
+      run: echo hello world
