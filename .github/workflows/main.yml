@@ -1,7 +1,8 @@
 name: Simple Workflow to test given actions
 on:
   push:
-    branches: master
+    branches: 
+      - master
 jobs:
   build:
     runs-on: ubuntu-latest
