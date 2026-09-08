@@ -1,4 +1,4 @@
-name: Simple Workflow to test given actions
+name: "Nehal workflow"
 on:
   push:
     branches: 
