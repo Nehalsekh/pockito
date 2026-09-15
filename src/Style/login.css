@@ -1,0 +1,54 @@
+.navbar {
+  background-color: #333;
+  color: white;
+  font-family: times new roman;
+  height: 60px;
+  width: 100%;
+  font-size: 20px;
+  display: flex;
+  position: sticky;
+  top: 0;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 15px;
+}
+.logo {
+  width: 40px;
+  display: flex;
+  margin-left: 20px;
+}
+.divider {
+  height: 60px;
+  border: 0.1px solid white;
+  margin-left: 35px;
+}
+
+.icons {
+  display: flex;
+}
+
+.product,
+img {
+  width: 100%;
+}
+.content h3 {
+  font-size: 40px;
+  margin-bottom: -5px;
+}
+.content {
+  font-size: 20px;
+  position: absolute;
+  inset: 0;
+  color: white;
+  text-align: left;
+  line-height: 40px;
+  margin: auto;
+  margin-top: 42px;
+  width: 50%;
+}
+/* .product {
+  display: flex;
+} */

@@ -1,0 +1,7 @@
+services:
+  img:
+    build: .
+    image: nehal-image
+    container_name: nehal-container
+    ports:
+      - "9000:3000"
