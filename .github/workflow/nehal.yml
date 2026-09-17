@@ -1,0 +1,16 @@
+name: "Sk Nehal first workflow file"
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build Docker image
+        run: echo "hi Nehal"
