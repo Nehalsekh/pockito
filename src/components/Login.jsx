@@ -40,7 +40,7 @@ export default function Login() {
           </p>
         </div>
         <div className="content">
-          <h3>Innovating with Excellence</h3>
+          <h3>Innovating with Excellence Skkk</h3>
           <p>
             We are amongst the few IT solutions companies, who have delivered
             first of its kind projects for government as well as for the private
